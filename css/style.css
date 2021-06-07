@@ -8,13 +8,13 @@
 .button-common {
   transition: all 0.3s;
   text-decoration: none;
+  display: inline-block;
 }
 
 .green-button-common {
   font-size: 12px;
   color: white;
   background: #74cfae;
-  display: inline-block;
 }
 
 .what_we_can_do-inner-text-common {
@@ -38,6 +38,8 @@
 .header-inner {
   padding: 15px 0;
   display: flex;
+  top: 0;
+  left: 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -133,7 +135,6 @@
 }
 
 .our_latest_work-inner-img-wrapper {
-  text-align: center;
   font-size: 0;
 }
 
