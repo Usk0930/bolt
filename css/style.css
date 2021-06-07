@@ -29,7 +29,8 @@
 .header-inner {
   padding: 15px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-inner-img {
@@ -65,6 +66,7 @@
 .theme-inner-h {
   font-size: 90px;
   font-weight: 700;
+  font-family: "Raleway";
   color: #74cfae;
   text-align: center;
 }
@@ -88,6 +90,7 @@
 }
 
 .what_we_can_do-inner-text {
+  margin-top: 20px;
   width: 60%;
 }
 
@@ -198,6 +201,7 @@
 }
 
 .our_skills-inner-content-param-text {
+  margin-top: 20px;
   color: white;
 }
 
@@ -212,7 +216,7 @@
 
 .sns-inner-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
 }
 
