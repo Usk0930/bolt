@@ -6,17 +6,18 @@
   margin: 0 auto;
 }
 
+.button-common {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 .what_we_can_do-inner-text-common {
   color: white;
   text-align: center;
 }
 
-/* .backgroung-common {
-  background-size: cover;
-} */
 
 /* ここまで */
-
 
 .header {
   z-index: 100;
@@ -42,8 +43,6 @@
   padding: 14px 12px;
   background: #74cfae;
   display: inline-block;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
 .header-inner-contact:hover {
@@ -88,10 +87,6 @@
   justify-content: space-around;
 }
 
-.what_we_can_do-inner-img {
-
-}
-
 .what_we_can_do-inner-text {
   width: 60%;
 }
@@ -129,9 +124,7 @@
 
 .our_latest_work-inner-img {
   margin-left: 100px;
-  cursor: pointer;
   opacity: 0.7;
-  transition: all 0.3s;
 }
 
 .our_latest_work-inner-img:nth-child(3n+1) {
@@ -155,19 +148,17 @@
   width:53%;
   font-size: 20px;
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .our_latest_work-inner-text-right {
   margin-left: 90px;
   font-size: 12px;
-  padding:14px 20px;
+  padding: 14px 20px;
   color: white;
   background-color: #74cfae;
   display: inline-block;
   vertical-align: middle;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
 .our_latest_work-inner-text-right:hover {
@@ -181,6 +172,7 @@
 
 .our_skills-inner {
   padding: 70px 0 100px 0;
+  text-align: center;
 }
 
 .our_skills-inner-h {
@@ -203,10 +195,6 @@
 
 .our_skills-inner-content-param:first-child {
   margin-left: 0;
-}
-
-.our_skills-inner-content-param-img {
-
 }
 
 .our_skills-inner-content-param-text {
@@ -235,13 +223,10 @@
   line-height: 100px;
   font-size: 3em;
   color: #74cfae;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
 .sns-inner-content-img:hover {
   background-color: white;
-  transition: all 0.3s;
 }
 
 .footer {
