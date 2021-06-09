@@ -6,7 +6,6 @@
 }
 
 .button-common {
-  transition: all 0.3s;
   text-decoration: none;
   display: inline-block;
 }
@@ -15,6 +14,7 @@
   font-size: 12px;
   color: #fff;
   background: #74cfae;
+  transition: all 0.3s;
 }
 
 .what_we_can_do-inner-text-common {
@@ -146,6 +146,7 @@
 .our_latest_work-inner-img {
   margin-left: 100px;
   display: inline-block;
+  transition: all 0.3s;
 }
 
 .our_latest_work-inner-img:nth-child(3n+1) {
@@ -244,6 +245,7 @@
   line-height: 100px;
   font-size: 3em;
   color: #74cfae;
+  transition: all 0.3s;
 }
 
 .sns-inner-content-link-img:hover {
@@ -382,7 +384,7 @@
   }
 
   .sns-inner-content {
-    display: list-item;
+    display: block;
   }
 
   .sns-inner-content-link-img {
