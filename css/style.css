@@ -290,9 +290,13 @@
   }
 
   .our_latest_work-inner-img {
-    margin-left: 0;
-    margin-top: 0;
+    margin: 0 auto;
     display: list-item;
+    max-width: 300px;
+  }
+
+  .our_latest_work-inner-img:nth-child(3n+1) {
+    margin: 0 auto;
   }
 
   .our_latest_work-inner-img:nth-child(n+4) {
@@ -300,7 +304,6 @@
   }
 
   .our_latest_work-inner-img:nth-child(3n+4) {
-    margin-left: 0;
     margin-top: 80px;
   }
 
